@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login to application",
+        "description": "",
+        "id": "shopping-homepage;login-to-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15542008920,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open my application",
+            "match": {
+              "location": "StepDefAutomationPractice.i_open_my_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9510058792,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with the following data",
+            "match": {
+              "location": "StepDefAutomationPractice.i_login_with_the_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "btest@gmail.com",
+                  "Btest@123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94586,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check home page is displayed",
+            "match": {
+              "location": "StepDefAutomationPractice.check_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "shopping-homepage;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103840,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "product Is Displayed",
+            "match": {
+              "location": "StepDefAutomationPractice.product_Is_Displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24435332000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "product Add Into Cart as \"Printed Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Dress",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefAutomationPractice.product_Add_Into_Cart_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14877180690,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Check Product Added Into Cart",
+            "match": {
+              "location": "StepDefAutomationPractice.check_Product_Added_Into_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Homepage",
+    "description": "This feature verifies the functionality on Shopping Homepage",
+    "id": "shopping-homepage",
+    "keyword": "Feature",
+    "uri": "feature/MultiplePassing.feature"
+  }
+]

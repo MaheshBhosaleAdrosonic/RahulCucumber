@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="64.364779">
+<testcase classname="Shopping Homepage" name="Login to application" time="25.052162">
+<system-out><![CDATA[Given I open my application.................................................passed
+When I login with the following data........................................passed
+Then Check home page is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shopping Homepage" name="" time="39.312617">
+<system-out><![CDATA[Given product Is Displayed..................................................passed
+When product Add Into Cart as "Printed Dress"...............................passed
+Then Check Product Added Into Cart..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
